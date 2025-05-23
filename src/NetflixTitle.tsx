@@ -6,29 +6,35 @@ import logoImage from '../src/images/logo-2.png'; // Update with the path to you
 
 const NetflixTitle = () => {
   const [isClicked, setIsClicked] = useState(false);
+  const [animate, setAnimate] = useState(false);
   const navigate = useNavigate();
 
   const handlePlaySound = () => {
     const audio = new Audio(netflixSound);
     audio.play().catch(error => console.error("Audio play error:", error));
-    setIsClicked(true); // Starts animation after clicking
+    setIsClicked(true); 
   };
 
   useEffect(() => {
-    if (isClicked) {
+    const timer = setTimeout(() => setAnimate(true), 2000); 
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (animate) {
       const timer = setTimeout(() => {
         navigate('/browse');
-      }, 4000);
+      }, 3000); 
       return () => clearTimeout(timer);
     }
-  }, [isClicked, navigate]);
+  }, [animate, navigate]);
 
   return (
     <div className="netflix-container" onClick={handlePlaySound}>
-      <img 
-        src={logoImage} 
-        alt="Custom Logo" 
-        className={`netflix-logo ${isClicked ? 'animate' : ''}`} 
+      <img
+        className={`netflix-logo${animate ? ' animate' : ''}`}
+        src={logoImage}
+        alt="Custom Logo"
       />
     </div>
   );
