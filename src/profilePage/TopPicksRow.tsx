@@ -11,13 +11,12 @@ interface TopPicksRowProps {
 
 const topPicksConfig = {
   recruiter: [
-    { title: "Work Permit", imgSrc: "https://picsum.photos/seed/workpermit/250/200", icon: <FaPassport />, route: "/work-permit" },
-    { title: "Skills", imgSrc: "https://picsum.photos/seed/skills/250/200", icon: <FaCode />, route: "/skills" },
-    { title: "Experience", imgSrc: "https://picsum.photos/seed/workexperience/250/200", icon: <FaBriefcase />, route: "/work-experience" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/seed/certifications/250/200", icon: <FaCertificate />, route: "/certifications" },
-    { title: "Recommendations", imgSrc: "https://picsum.photos/seed/recommendations/250/200", icon: <FaHandsHelping />, route: "/recommendations" },
-    { title: "Projects", imgSrc: "https://picsum.photos/seed/projects/250/200", icon: <FaProjectDiagram />, route: "/projects" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/seed/contact/250/200", icon: <FaEnvelope />, route: "/contact-me" }
+    { title: "Skills", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFVwAfrSqoor-Ar6BsZsU14nTisxG2Xlvjg&s", icon: <FaCode />, route: "/skills" },
+    { title: "Experience", imgSrc: "https://blogs.nyit.edu/uploads/career_corner/images/expereince.jpg", icon: <FaBriefcase />, route: "/work-experience" },
+    { title: "Certifications", imgSrc: "https://www.questonline.co.uk/uploads/news-articles-saved/CNetRosettes-1996-1636477811.jpg", icon: <FaCertificate />, route: "/certifications" },
+    { title: "Recommendations", imgSrc: "https://www.science.org/do/10.1126/science.caredit.aau8868/full/eelifepreserver_16x9-1644894871497.jpg", icon: <FaHandsHelping />, route: "/recommendations" },
+    { title: "Projects", imgSrc: "https://www.elprocus.com/wp-content/uploads/Artificial-Intelligence-Projects.jpg", icon: <FaProjectDiagram />, route: "/projects" },
+    { title: "Contact Me", imgSrc: "https://t4.ftcdn.net/jpg/00/88/74/49/360_F_88744916_2d10nlc9o5pYt7maCIQjZyePT7zL6Ujz.jpg", icon: <FaEnvelope />, route: "/contact-me" }
   ],
   developer: [
     { title: "Skills", imgSrc: "https://picsum.photos/seed/coding/250/200", route: "/skills", icon: <FaCode /> },

@@ -2,7 +2,7 @@ import React from 'react';
 import './MoreInfoButton.css';
 
 interface MoreInfoButtonProps {
-  onClick: () => void;
+  onClick?: () => void;
   label?: string;
 }
 

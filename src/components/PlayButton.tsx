@@ -2,7 +2,7 @@ import React from 'react';
 import './PlayButton.css';
 
 interface PlayButtonProps {
-  onClick: () => void;
+  onClick?: () => void;
   label?: string;
 }
 
