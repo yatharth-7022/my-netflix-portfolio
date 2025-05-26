@@ -32,7 +32,6 @@ import {
   SiArgo,
 } from "react-icons/si";
 import { Project } from "../types";
-import { getProjects } from "../queries/getProjects";
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoVercel } from "react-icons/io5";
