@@ -41,20 +41,6 @@ Skills Page
 - **UI Enhancements**: React Icons / Custom SVGs
 - **Routing**: React Router
 
----
-
-## 📁 Project Structure (Simplified)
-my-netflix-portfolio/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── assets/
-│ └── App.tsx
-├── tsconfig.json
-├── package.json
-└── README.md
-
 
 ---
 
