@@ -10,13 +10,13 @@ Welcome to my **Netflix Inspired Portfolio**, a visually captivating and functio
 
 Here are some snapshots of the application to give you a feel of the design and experience:
 
-![Landing Page]
+Landing Page
 ![image](https://github.com/user-attachments/assets/0b538070-3ed9-4143-b855-63ee3d26cc8b)
 
-![Projects Page]
+Projects Page
 ![image](https://github.com/user-attachments/assets/3da0e12c-b753-4539-861b-7f1dd056d5fb)
 
-![Skills Page]
+Skills Page
 ![image](https://github.com/user-attachments/assets/f0c5f944-40a8-4d97-96e1-f2fa066f8883)
 
 
@@ -76,7 +76,11 @@ npm install
 npm start
 ```
 Made with ❤️ by Yatharth Agarwal
-🔗 https://my-netflix-portfolio-iyjdgh6zq-yatharths-projects-f17eb056.vercel.app/
+🔗 https://yatharthagarwal.com
+
+- 💼 [Portfolio Website](https://yatharthagarwal.com)
+- 📧 Email: [yatharth7022@gmail.com](mailto:yatharth7022@gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/yatharth-agarwal-666787255/)
 
 
 ---
