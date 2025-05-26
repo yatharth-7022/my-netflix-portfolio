@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Skills.css";
-import { getSkills } from "../queries/getSkills";
 
 import {
   FaReact,

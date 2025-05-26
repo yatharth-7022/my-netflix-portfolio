@@ -9,7 +9,6 @@ import { IoSchool as SchoolIcon } from "react-icons/io5";
 import { FaStar as StarIcon } from "react-icons/fa";
 import "./WorkExperience.css";
 import { TimelineItem } from "../types";
-import { getTimeline } from "../queries/getTimeline";
 import { timelineData } from "../timelinedata";
 
 const WorkExperience: React.FC = () => {

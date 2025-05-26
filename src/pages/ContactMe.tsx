@@ -3,7 +3,6 @@ import "./ContactMe.css";
 import profilePic from "../images/sumanth.jpeg";
 import { FaEnvelope, FaPhoneAlt, FaCoffee, FaLinkedin } from "react-icons/fa";
 import { ContactMe as IContactMe } from "../types";
-import { getContactMe } from "../queries/getContactMe";
 interface UserProfile {
   name: string;
   title: string;
